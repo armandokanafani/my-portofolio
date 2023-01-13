@@ -1,10 +1,12 @@
-
+import Home from "../pages/Home";
 
 function Container ({containerValue}){
     
 
     if(containerValue === "home"){
-        return (<h1>Halaman Home</h1>)
+        return (
+            <Home />
+        )
         
     }
     if(containerValue === "portofolio"){
