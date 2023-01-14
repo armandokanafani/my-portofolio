@@ -98,7 +98,7 @@ const Home = () => {
                             <span className='text-sm text-gray-400'>March 2021 - Present</span>
                             <div className='mt-2'>
                                 <h3 className='font-bold'>Keluarga Besar Mahasiswa Pendidikan Teknologi Informasi</h3>
-                                <p>IT Staff of Departement PUSKOMINFO | Departement student association</p>
+                                <p className='text-sm'>IT Staff of Departement PUSKOMINFO | Departement student association</p>
                             </div>
                         </div>
                         
@@ -108,8 +108,27 @@ const Home = () => {
             {/* Experiance Section End */}
 
             {/* Project Section Start */}
-            <section>
-                
+            <section className='flex flex-col mt-12 px-12 md:px-24 lg:px-36'>
+                <div className='flex items-center'>
+                    <h1 className='font-bold text-2xl text-center lg:text-start'>Project</h1>
+                    <div className='ml-6 bg-gray-300 w-full h-[1px]'></div>
+                </div>
+
+                {/* Project Container */}
+                <div className='flex flex-wrap my-2 gap-2 justify-center lg:justify-start'>
+                    
+                    {/* Card 1 */}
+                    <div className='rounded-lg border-2 drop-shadow-lg my-4 md:w-2/3 lg:w-1/3'>
+                        <div className='flex justify-center'>
+                            <img className='rounded-t-lg drop-shadow-none' src={require('../assets/img/Project-1.png')} />
+                        </div>
+                        <div className='my-4 mx-2'>
+                            <h2 className='font-bold text-'>Rebuild KBMPTI Website</h2>
+                            <p className='text-sm text-justify'>Rebuild official website for recruitmen using Tailwind, Laravel</p>
+                        </div>
+                    </div>
+
+                </div>
             </section>
             {/* Project Section End */}
         </div>
