@@ -84,7 +84,7 @@ const Home = () => {
             {/* Languange Section End   */}
 
             {/* Experiance Section Start */}
-            <sectio className='flex flex-col mt-12 px-12 md:px-24 lg:px-36'>
+            <section className='flex flex-col mt-12 px-12 md:px-24 lg:px-36'>
                 <div className='flex items-center'>
                     <h1 className='font-bold text-2xl text-center lg:text-start'>Experiance</h1>
                     <div className='ml-6 bg-gray-300 w-full h-[1px]'></div>
@@ -104,8 +104,14 @@ const Home = () => {
                         
                     </li>
                 </ul>
-            </sectio>
+            </section>
             {/* Experiance Section End */}
+
+            {/* Project Section Start */}
+            <section>
+                
+            </section>
+            {/* Project Section End */}
         </div>
 
     )
