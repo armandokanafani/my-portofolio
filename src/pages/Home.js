@@ -84,10 +84,27 @@ const Home = () => {
             {/* Languange Section End   */}
 
             {/* Experiance Section Start */}
-            <section>
-                <h1>Experiance</h1>
+            <sectio className='flex flex-col mt-12 px-12 md:px-24 lg:px-36'>
+                <div className='flex items-center'>
+                    <h1 className='font-bold text-2xl text-center lg:text-start'>Experiance</h1>
+                    <div className='ml-6 bg-gray-300 w-full h-[1px]'></div>
+                </div>
                 
-            </section>
+                {/* Experiance container */}
+                <ul className='list-disc'>
+                    {/* poin 1 */}
+                    <li className='my-6'>
+                        <div className='flex flex-col lg:flex-row lg:justify-between'>
+                            <span className='text-sm text-gray-400'>March 2021 - Present</span>
+                            <div className='mt-2'>
+                                <h3 className='font-bold'>Keluarga Besar Mahasiswa Pendidikan Teknologi Informasi</h3>
+                                <p>IT Staff of Departement PUSKOMINFO | Departement student association</p>
+                            </div>
+                        </div>
+                        
+                    </li>
+                </ul>
+            </sectio>
             {/* Experiance Section End */}
         </div>
 
