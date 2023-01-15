@@ -17,10 +17,10 @@ function App() {
       <header className='fixed w-full top-0 left-0 z-50 '>
         <Navbar onValueChange={setContainerValue}/>
       </header>
-        <Container containerValue={containerValue}/>
+        
       {/* Content */}
-      <main className='flex-grow'>
-
+      <main className='mt-24 flex-grow'>
+        <Container containerValue={containerValue}/>
       </main>
 
       {/* Footer */}

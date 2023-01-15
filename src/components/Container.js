@@ -1,4 +1,5 @@
 import Home from "../pages/Home";
+import Portofolio from "../pages/Portofolio";
 
 function Container ({containerValue}){
     
@@ -10,8 +11,11 @@ function Container ({containerValue}){
         
     }
     if(containerValue === "portofolio"){
-        return (<h1>Halaman Portofolio</h1>)
+        return (
+            <Portofolio />
+        )
     }
+    
     if(containerValue === "contact"){
         return (<h1>Halaman Contact</h1>)
     }
