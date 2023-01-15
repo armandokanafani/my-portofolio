@@ -120,7 +120,7 @@ const Home = () => {
                     {/* Card 1 */}
                     <div className='rounded-lg border-2 drop-shadow-lg my-4 md:w-2/3 lg:w-1/3'>
                         <div className='flex justify-center'>
-                            <img className='rounded-t-lg drop-shadow-none' src={require('../assets/img/Project-1.png')} />
+                            <img className='rounded-t-lg drop-shadow-none' src={require('../assets/img/Project-1.png')} alt="Project-KBMPTI-web" />
                         </div>
                         <div className='my-4 mx-2'>
                             <h2 className='font-bold text-'>Rebuild KBMPTI Website</h2>
