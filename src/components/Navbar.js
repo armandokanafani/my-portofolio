@@ -23,9 +23,6 @@ const Navbar  = ({onValueChange}) => {
                         <li>
                             <button id="portofolio" className="hover:text-opacity-50" onClick={() => onValueChange("portofolio")}>Portofolio</button>
                         </li>
-                        <li>
-                            <button id="contact" className="hover:text-opacity-50" onClick={() => onValueChange("contact")}>Contact</button>
-                        </li>
                     </ul>
                 </div>
 
