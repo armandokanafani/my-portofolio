@@ -14,7 +14,7 @@ function App() {
   return (
     <div className='flex flex-col h-screen'>
       {/* Header */}
-      <header>
+      <header className='sticky top-0 left-0 z-50 '>
         <Navbar onValueChange={setContainerValue}/>
       </header>
         <Container containerValue={containerValue}/>

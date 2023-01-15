@@ -7,8 +7,8 @@ const Navbar  = ({onValueChange}) => {
     const [isOpen, setOpen] = useState(false)
 
     return (
-        <div className="flex flex-col">
-            <div className="flex justify-between items-center bg-transparent px-12 md:px-24 lg:px-36 w-full py-6">
+        <nav className="flex flex-col">
+            <div className="flex justify-between items-center bg-white border-b drop-shadow-md px-12 md:px-24 lg:px-36 w-full py-6">
                 <div className="flex justify-center">
                     <button  onClick={() => onValueChange("home")}>
                         <h1 className='font-bold text-base text-black'>Armando Kanafani</h1>
@@ -41,7 +41,7 @@ const Navbar  = ({onValueChange}) => {
                 <MobileNabar onValueChange={onValueChange} onShow={isOpen}/>
             </div>
             {/* Mobile Menu End */}
-        </div>
+        </nav>
     )
 }
 
